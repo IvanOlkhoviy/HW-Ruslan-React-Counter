@@ -1,19 +1,15 @@
 import React from "react";
-import { Counter } from "./components/Counter";
+import  Counter from "./components/Counter/Counter";
 
 
-class App extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-    }
-  }
-
-  render(){
+function App(){
+  
     return (
+      <div>
       <Counter/>
+      </div>
     )
-  }
+  
 }
 
 export default App;
