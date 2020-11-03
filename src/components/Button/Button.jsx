@@ -5,8 +5,7 @@ import React from "react";
 function Button({count, changeCount, number}) {
 
     const plusCount = (number) => {
-        count +=  number; 
-        changeCount (count);
+        changeCount (count,number);
     } 
 
     

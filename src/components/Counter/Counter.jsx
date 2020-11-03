@@ -6,9 +6,9 @@ function Counter() {
 
     const [count, setCount] = useState(0);
 
-    const changeCount = (count) => {
+    const changeCount = (count, number) => {
 
-        setCount(count);
+        setCount(count + number);
     }
 
 
